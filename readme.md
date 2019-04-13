@@ -1,0 +1,1 @@
+Some analysis on stocks and indices using python
