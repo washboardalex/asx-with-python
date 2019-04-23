@@ -12,7 +12,7 @@ import pandas as pd
 import requests
 import time
 
-Pull asx200 tickers from wikipedia
+# Pull asx200 tickers from wikipedia
 def save_asx200_tickers():
     resp = requests.get('https://en.wikipedia.org/wiki/S%26P/ASX_200#Constituent_companies')
     soup = bs.BeautifulSoup(resp.text, 'lxml')
