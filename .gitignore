@@ -1,1 +1,4 @@
 env
+stock_dfs
+sp500_joined_closes.csv
+correlations.png
